@@ -1,0 +1,50 @@
+.home-page {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: var(--mainFont);
+    background-color: var(--mainColor);
+}
+
+.home-page .hero {
+    padding: 70px 30px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.hero .hero-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+}
+.hero-intro h1 {
+    font-weight: 600;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 100%;
+}
+.hero-intro h1 span {
+    color: var(--bgColor);
+}
+.hero-intro .hero-btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hero-btns button {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+}
+.hero-btns button:hover, .hero-btns button:nth-last-child(1) {
+    background-color: #fff;
+    color: #000;
+}
+.hero-btns button:nth-last-child(1):hover {
+    background-color: var(--bgColor);
+    color: #fff;
+}
