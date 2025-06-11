@@ -173,7 +173,7 @@ button {
     }
 
     .nav-bar {
-        padding: 25px 30px;
+        padding: 20px 30px;
         position: sticky;
         top: 0;
         backdrop-filter: blur(10px);
@@ -199,7 +199,7 @@ button {
 
 @media screen and (max-width: 550px) {
     .nav-bar {
-        padding: 25px 20px;
+        padding: 18px 20px;
 
     }
     .toggle {

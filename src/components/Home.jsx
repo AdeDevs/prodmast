@@ -158,6 +158,53 @@ export default function HomePage() {
                     <button>work with us</button>
                 </section>
             </main>
+            <footer>
+                <section className="footer-main">
+                    <div className="footer-intro">
+                        <h1 className="logo">Prodmast</h1>
+                        <p>Our solutions make production <br /> faster and cheaper. Contact us for <br /> more information.</p>
+                    </div>
+                    <div className="links">
+                        <ul>
+                            <li className="l-bold">Company</li>
+                            <li>about us</li>
+                            <li>customers</li>
+                            <li>newsroom</li>
+                            <li>events</li>
+                        </ul>
+                        <ul>
+                            <li className="l-bold">Industries</li>
+                            <li>precision metalform</li>
+                            <li>industrial manufacturing</li>
+                            <li>high tects & electronics</li>
+                            <li>aerospace</li>
+                        </ul>
+                        <ul>
+                            <li className="l-bold">products</li>
+                            <li>manufacturing execution system</li>
+                            <li>Enterprise resource planning</li>
+                            <li>quality management system</li>
+                            <li>supply chain planning</li>
+                        </ul>
+                        <ul>
+                            <li className="l-bold">get in touch</li>
+                            <li> <a href="#">hello@prodmast.com</a> </li>
+                            <sub className="socials">
+                                <span><ion-icon name="logo-linkedin"></ion-icon></span>
+                                <span><ion-icon name="logo-instagram"></ion-icon></span>
+                                <span><ion-icon name="logo-facebook"></ion-icon></span>
+                            </sub>
+                        </ul>
+                    </div>
+                </section>
+                <section className="last">
+                    <p>&copy; 2025 Prodmast, All Rights Reserved</p>
+                    <ul>
+                        <li>Terms & Condition</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </section>
+            </footer>
         </div>
     )
 }

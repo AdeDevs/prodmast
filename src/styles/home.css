@@ -431,6 +431,101 @@
     font-size: 13px;
     font-weight: 400;
 }
+.idea button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+footer .footer-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    box-sizing: border-box;
+    border-bottom: 1px solid #464646;
+    padding: 40px 0;
+    gap: 10px;
+}
+.footer-main .footer-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-intro h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+.footer-intro p {
+    font-size: 14px;
+    color: #dedede;
+    font-weight: 300;
+}
+.footer-main .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    box-sizing: border-box;
+}
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 14px;
+    color: #bdbdbd;
+}
+.links ul .l-bold {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.links a {
+    color: inherit;
+    text-transform: lowercase;
+}
+.links .socials {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.socials span {
+    display: flex;
+    padding: 7px;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1f2326;
+    transition: all .3s ease-in-out;
+}
+.socials span:hover {
+    background-color: #e2ffc8;
+    color: #000;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: 300;
+    color: #bdbdbd;
+}
+.last ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
 
 @media screen and (max-width: 850px) {
     .hero-intro h1 {
@@ -482,6 +577,12 @@
     }
     .home-main .companies {
         gap: 20px;
+    }
+    .footer-main .links {
+        gap: 5px;
+    }
+    .links ul {
+        font-size: 12px;
     }
 }
 
@@ -546,6 +647,30 @@
     }
     .home-main .companies {
         padding: 50px 20px;
+    }
+    footer {
+        padding: 50px 20px;
+    }
+    footer br {
+        display: none;
+    }
+    footer .footer-main {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .footer-main .links {
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 10px;
+    }
+    .last {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .last ul {
+        align-self: flex-end;
     }
 }
 
