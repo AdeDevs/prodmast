@@ -131,7 +131,7 @@ button {
 }
 
 .mobile-nav {
-    background-color: #142f3285;
+    background-color: #142f32d1;
     backdrop-filter: blur(10px);
     height: 100vh;
     width: 100%;
@@ -175,6 +175,7 @@ button {
     .nav-bar {
         padding: 25px 30px;
         position: sticky;
+        top: 0;
         backdrop-filter: blur(10px);
     }
 
